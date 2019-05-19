@@ -22,9 +22,9 @@
     }
   },
   "environment": {
-    "hideintro": true,
-    "hidefinish": true,
-    "uilayout": "editor-terminal"
+    "hideintro": false,
+    "hidefinish": false,
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "ubuntu"
