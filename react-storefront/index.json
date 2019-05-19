@@ -9,7 +9,7 @@
         "text": "step1.md"
       },
       {
-        "title": "Create a new app",
+        "title": "Start the MoovJS SDK",
         "text": "step2.md"
       }
     ],
@@ -25,7 +25,14 @@
   "environment": {
     "hideintro": false,
     "hidefinish": false,
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "showdashboard": true,
+    "dashboards": [
+      {
+        "name": "Server",
+        "port": 8080
+      }
+    ]
   },
   "backend": {
     "imageid": "ubuntu"
