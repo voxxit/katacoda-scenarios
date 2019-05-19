@@ -23,9 +23,9 @@
     }
   },
   "environment": {
-    "hideintro": false,
-    "hidefinish": false,
-    "uilayout": "terminal"
+    "hideintro": true,
+    "hidefinish": true,
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "docker"

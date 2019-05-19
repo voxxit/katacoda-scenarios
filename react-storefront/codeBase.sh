@@ -1,2 +1,1 @@
-docker run --rm -it node:8 bash
-clear
+docker run --rm -it -v ${PWD}:/usr/src/app -w /usr/src/app node:8 bash
