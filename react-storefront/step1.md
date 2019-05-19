@@ -13,4 +13,4 @@ This will install the latest 8.x version of Node, as well as npm. We also recomm
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
 apt-get update && apt-get install --no-install-recommends yarn
-```
+```{{execute}}
