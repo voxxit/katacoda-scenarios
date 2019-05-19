@@ -1,5 +1,3 @@
-# Step 1: Setup
-
 You're going to need to ensure that your system has Node v8.x installed, along with a package manager such as `npm` or `yarn`.
 
 > **NOTE:** In this course, we will be using the Ubuntu flavor of Linux. However, React Storefront apps can be developed using macOS and Windows, too.
