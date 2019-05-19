@@ -6,9 +6,7 @@
     "steps": [
       {
         "title": "Setup your environment",
-        "text": "step1.md",
-        "courseData": "courseBase.sh",
-        "code": "codeBase.sh"
+        "text": "step1.md"
       },
       {
         "title": "Create a new app",
@@ -25,8 +23,8 @@
     }
   },
   "environment": {
-    "hideintro": true,
-    "hidefinish": true,
+    "hideintro": false,
+    "hidefinish": false,
     "uilayout": "editor-terminal"
   },
   "backend": {
