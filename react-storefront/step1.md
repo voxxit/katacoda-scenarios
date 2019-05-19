@@ -15,3 +15,5 @@ It is used to generate a unique React Storefront project using interactive input
 ```
 create-react-storefront myapp
 ```{{execute}}
+
+Fill in a few (_probably_ not real... yet 😎) answers for `myapp`: version, repository URL, license, etc, and `create-react-storefront` will create a project skeleton, pre-filled configuration files, templates, and everything else you need to get off the ground.
