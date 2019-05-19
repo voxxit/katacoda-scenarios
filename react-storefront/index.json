@@ -6,7 +6,9 @@
     "steps": [
       {
         "title": "Setup your environment",
-        "text": "step1.md"
+        "text": "step1.md",
+        "courseData": "courseBase.sh",
+        "code": "codeBase.sh"
       },
       {
         "title": "Create a new app",
