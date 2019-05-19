@@ -4,17 +4,18 @@ We're going to work out of a completely fresh, temporary environment using [Dock
 * npm v6.x
 * git (to download some npm modules)
 
-To help you get off the ground, run the [`create-react-storefront`](https://www.npmjs.com/package/create-react-storefront) CLI tool:
-
-```
-npx create-react-storefront myapp
-```{{execute}}
-
-It is used to generate a unique React Storefront project using interactive input from you. Start by filling in a few (_probably_ not real... yet 😎) answers for `myapp`: 
+To help you get off the ground, we recommend generating a project using the [`create-react-storefront`](https://www.npmjs.com/package/create-react-storefront) CLI tool. It is used to generate a unique React Storefront project using interactive input from you. Typically, you would start by filling in a few details for your project: 
 
 * version
 * repository URL
 * license
 * etc...
 
-`create-react-storefront` will take your input and create a project skeleton, pre-filled configuration files, templates, and everything else you need to get off the ground! 🚀
+You can also simply accept the defaults and do that later - which we'll do now:
+
+```
+npx create-react-storefront myapp -y
+```{{execute}}
+
+
+In a few moments, `create-react-storefront` will download all the project Node.js dependencies, and build a project skeleton, pre-filled configuration files, templates, and everything else you need to get off the ground! 🚀

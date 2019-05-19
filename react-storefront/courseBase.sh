@@ -1,5 +1,5 @@
 # Clear old files from the working directory
-rm -rf /root/*
+rm -rf /root/myapp
 
 # Make sure the permissions are right
 chown -R 1000:1000 /root

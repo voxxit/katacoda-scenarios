@@ -1,1 +1,1 @@
-docker run --rm -it -v $(pwd):/home/node -w /home/node -u 1000:1000 node:8 bash
+docker run --rm -it --net=host -v $(pwd):/home/node moovadapt/katacoda-node:8
