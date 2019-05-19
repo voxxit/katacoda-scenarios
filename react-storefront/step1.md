@@ -1,24 +1,16 @@
-You're going to need to ensure that your system has Node v8.x installed, along with a package manager such as `npm` or `yarn`.
+First, let's start up a fresh Docker container to work out of for this course:
 
-> **NOTE:** In this course, we will be using the Ubuntu flavor of Linux. However, React Storefront apps can be developed using macOS and Windows, too.
+`docker run --rm -it ubuntu:xenial`{{execute}}
 
-1. Add the official Node.js repository to your list of sources: `curl -sL https://deb.nodesource.com/setup_8.x | bash -`{{execute}}
-2. Install Node: `apt-get -y install nodejs`{{execute}}
-3. Make sure you have the latest version of `npm`: `npm install -g npm@latest`{{execute}}
+> **NOTE:** We use Ubuntu in this course. However, React Storefront apps can also run on macOS and Windows.
 
-We also recommend that you install `yarn`, as some developers prefer using it:
+1. Add the official package repo: `curl -sL https://deb.nodesource.com/setup_8.x | bash -`{{execute}}
+2. Install `nodejs`: `apt-get -y install nodejs`{{execute}}
+3. Install the latest version of `npm`: `npm install -g npm@latest`{{execute}}
 
-```
-curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
-apt-get update
-apt-get -y install yarn
-```
-
-Let's verify that all the versions are what we expect:
+Let's verify that we have installed the expected versions:
 
 Expected Version | Installed Verison
 ---------------- | --------------------
 >= v8.15.0       | `node -v`
 >= v6.9.0        | `npm -v`
->= v1.13.0       | `yarn -v`

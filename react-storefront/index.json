@@ -15,7 +15,8 @@
     ],
     "intro": {
       "text": "intro.md",
-      "courseData": "courseBase.sh"
+      "courseData": "courseBase.sh",
+      "code": "codeBase.sh"
     },
     "finish": {
       "text": "finish.md"
