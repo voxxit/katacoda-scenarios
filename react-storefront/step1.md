@@ -1,7 +1,7 @@
 We're going to work out of a completely fresh, temporary environment using [Docker](https://www.docker.com/products/docker-desktop):
 
 ```
-docker run --rm -it node:8-slim bash
+docker run --rm -it node:8 bash
 ```
 
 This image already contains the required components to run React Storefront apps:
